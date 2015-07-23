@@ -68,7 +68,11 @@ namespace SpecFlowNUnitSelenium.Tests.Configs
 
         private static IWebDriver ObterChrome()
         {
-            return new ChromeDriver(@"C:\Projetos\SpecFlowNUnitSelenium\packages\ChromeWebDriver");
+            var sourceDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var solutionDir = Path.GetFullPath(Path.Combine(sourceDir, "..", "..", ".."));
+            var driverPath = Path.GetFullPath(Path.Combine(solutionDir, @"packages\ChromeWebDriver"));
+
+            return new ChromeDriver(driverPath);
         }
 
         private static IWebDriver ObterInternetExplorerDriver()

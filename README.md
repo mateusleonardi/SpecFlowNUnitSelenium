@@ -1,7 +1,10 @@
-Primeiros passos com SpecFlow:
+# Primeiros passos com SpecFlow:
 http://www.specflow.org/guidance/first-steps/
 
-###########################################################
+
+# Como corrigir corrigir possíveis erros
+
+## Novas Features não aparecem para serem executadas
 
 Caso você adicione features ou testes e não apareça para execução, siga os seguintes passos:
 * Saia do Visual Studio
@@ -11,20 +14,12 @@ Caso você adicione features ou testes e não apareça para execução, siga os 
 * Delete todos esses arquivos
 * Abra seu projeto no Visual Studio novamente
 
-###########################################################
-
-###########################################################
-
-Para rodar com sucesso seus testes, vá no arquivo SeleniumHelper.cs e coloque na linha 71 o endereço correto do seu ChromeDriver.
-(Será corrigido o quanto antes)
-
-###########################################################
-
+## ReSharper
+Caso você esteja usando ReSharper, desabilite a opção "Shadow-copy assemblies being tested" indo em:
+Menu RESHARPER >> Options >> Tools >> Unit Testing
 
 Se desejarem se tornar colaboradores, só falar.
 
-Observação:
+### Observação:
 Foi um projeto feito de maneira rápida para mostrar o funcionamento básico do SpecFlow + NUnit + Selenium.
 Qualquer sugestão, por gentileza compartilhe, será um prazer contribuir de acordo com sua necessidade.
-
-Obrigado.

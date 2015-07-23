@@ -39,7 +39,7 @@ namespace SpecFlowNUnitSelenium.Tests.Specs
         [Then(@"o resultado é negativo")]
         public void EntaoOResultadoENegativo()
         {
-            parametro.Should().Be("NUnit is awesome");
+            parametro.Should().NotBe("NUnit is awesome");
         }
     }
 }
