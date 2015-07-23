@@ -21,6 +21,8 @@ Para rodar com sucesso seus testes, vá no arquivo SeleniumHelper.cs e coloque n
 ###########################################################
 
 
+Se desejarem se tornar colaboradores, só falar.
+
 Observação:
 Foi um projeto feito de maneira rápida para mostrar o funcionamento básico do SpecFlow + NUnit + Selenium.
 Qualquer sugestão, por gentileza compartilhe, será um prazer contribuir de acordo com sua necessidade.
