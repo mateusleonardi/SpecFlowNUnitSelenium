@@ -68,7 +68,7 @@ namespace SpecFlowNUnitSelenium.Tests.Configs
 
         private static IWebDriver ObterChrome()
         {
-            return new ChromeDriver(@"C:\Projetos\SpecFlow.NUnit.Selenium\packages\ChromeWebDriver");
+            return new ChromeDriver(@"C:\Projetos\SpecFlowNUnitSelenium\packages\ChromeWebDriver");
         }
 
         private static IWebDriver ObterInternetExplorerDriver()
